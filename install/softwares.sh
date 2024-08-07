@@ -6,7 +6,6 @@ source colors.sh
 msg_install "Installing software with brew cask"
 cask=(
   "1password"
-  "android-studio"
   "arc"
   "chatgpt"
   "discord"
