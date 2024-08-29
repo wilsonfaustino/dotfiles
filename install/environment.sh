@@ -31,6 +31,7 @@ brew install \
   node \
   openssl \
   openssl@3 \
+  pnpm \
   postgresql@13 \
   pyenv \
   python3 \
