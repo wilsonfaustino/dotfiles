@@ -15,7 +15,6 @@ export ZSH="$HOME/.oh-my-zsh"
 # Path sourses
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
-source $HOME/.functions
 
 # Zsh plugins
 plugins=(
