@@ -21,7 +21,6 @@ brew cleanup
 brew tap buo/cask-upgrade
 brew install \
   curl \
-  docker \
   docker-compose \
   fnm \
   gh \
