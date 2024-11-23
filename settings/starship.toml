@@ -206,3 +206,10 @@ symbol = " "
 
 [zig]
 symbol = " "
+
+[custom.react]
+command = "echo '⚛️ '$(npm list react --depth=0 | grep react | awk '{print $2}')"
+when = "test -d node_modules/react"
+
+[prompt]
+format = "$all $custom.react "
