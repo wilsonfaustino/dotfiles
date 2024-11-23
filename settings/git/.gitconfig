@@ -51,8 +51,6 @@
   new = green
 [init]
   defaultBranch = main
-[includeIf "gitdir:~/Joyjet/"]
-  path = ~/Joyjet/.gitconfig
 [fetch]
 	prune = true
 [push]
@@ -62,3 +60,7 @@
   rebase = true
 [merge]
   log = true
+[includeIf "gitdir:~/www/Jaya/"]
+  path = ~/www/Jaya/.gitconfig
+[includeIf "gitdir:~/www/Syngenta/"]
+  path = ~/www/Syngenta/.gitconfig
