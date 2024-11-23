@@ -32,6 +32,26 @@ fi
 ln -sf $DOTFILES/settings/git/.gitconfig $HOME/
 msg_checking ".gitconfig"
 
+# .gitconfig jaya
+if [ -f "$HOME/www/Jaya/.gitconfig" ]; then
+  msg_update ".gitconfig jaya"
+  rm $HOME/www/Jaya/.gitconfig
+else
+  msg_install ".gitconfig jaya"
+fi
+ln -sf $DOTFILES/settings/git/jaya/.gitconfig $HOME/www/Jaya/
+msg_checking ".gitconfig jaya"
+
+# .gitconfig syngenta
+if [ -f "$HOME/www/Syngenta/.gitconfig" ]; then
+  msg_update ".gitconfig syngenta"
+  rm $HOME/www/Syngenta/.gitconfig
+else
+  msg_install ".gitconfig syngenta"
+fi
+ln -sf $DOTFILES/settings/git/syngenta/.gitconfig $HOME/www/Syngenta/
+msg_checking ".gitconfig syngenta"
+
 # .gitignore
 if [ -f "$HOME/settings/git/.gitignore" ]; then
   msg_update ".gitignore"
