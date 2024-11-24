@@ -138,14 +138,14 @@
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.fontSize": 16,
-  "terminal.integrated.fontFamily": "Berkeley Mono",
+  "terminal.integrated.fontFamily": "BerkeleyMono Nerd Font Mono Plus Font Awesome Plus Font Awesome Extension Plus Octicons Plus Power Symbols Plus Codicons Plus Pomicons Plus Font Logos Plus Material Design Icons Plus Weather Icons",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
   "editor.semanticHighlighting.enabled": false,
   "breadcrumbs.enabled": true,
   "workbench.productIconTheme": "fluent-icons",
-  "editor.fontFamily": "Berkeley Mono",
+  "editor.fontFamily": "BerkeleyMono Nerd Font Mono Plus Font Awesome Plus Font Awesome Extension Plus Octicons Plus Power Symbols Plus Codicons Plus Pomicons Plus Font Logos Plus Material Design Icons Plus Weather Icons",
   "gitlens.codeLens.authors.enabled": false,
   "editor.tabSize": 2,
   "security.workspace.trust.untrustedFiles": "newWindow",
